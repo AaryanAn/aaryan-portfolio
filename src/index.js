@@ -38,8 +38,40 @@ function initParallax() {
   updateParallax();
 }
 
+// Navbar functionality
+function initNavbar() {
+  const navbar = document.getElementById('navbar');
+  const navToggle = document.getElementById('nav-toggle');
+  const navMenu = document.getElementById('nav-menu');
+  
+  // Mobile menu toggle
+  navToggle?.addEventListener('click', () => {
+    navToggle.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  });
+  
+  // Close mobile menu when clicking on links
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      navToggle?.classList.remove('active');
+      navMenu?.classList.remove('active');
+    });
+  });
+  
+  // Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar?.classList.add('scrolled');
+    } else {
+      navbar?.classList.remove('scrolled');
+    }
+  });
+}
+
 // Add smooth scrolling for navigation links
 document.addEventListener('DOMContentLoaded', function() {
+  // Initialize navbar
+  initNavbar();
   // Initialize parallax
   initParallax();
   

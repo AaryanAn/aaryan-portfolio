@@ -1,0 +1,143 @@
+/* GitHub Section */
+#github {
+  background: rgba(30, 41, 59, 0.3);
+  color: $text-primary;
+  padding: 8rem 0;
+  position: relative;
+
+  .section-title {
+    margin-bottom: 6rem;
+  }
+}
+
+.github-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.github-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.github-stat-card {
+  text-align: center;
+  
+  h3 {
+    color: $text-primary;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: $gradient-primary;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  p {
+    color: $text-secondary;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+}
+
+.github-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    
+    i {
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.github-highlights {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: rgba(15, 23, 42, 0.4);
+  border: 1px solid rgba(100, 255, 218, 0.1);
+  border-radius: 12px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  &:hover {
+    transform: translateX(10px);
+    border-color: rgba(100, 255, 218, 0.3);
+    background: rgba(15, 23, 42, 0.6);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+  min-width: 2rem;
+}
+
+.highlight-text {
+  color: $text-secondary;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+  #github {
+    padding: 6rem 0;
+  }
+  
+  .github-stats {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    text-align: center;
+  }
+  
+  .github-stat-card {
+    h3 {
+      font-size: 1.6rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+  
+  .github-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .highlight-item {
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
+}
+
+/* Tablet Responsive */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .github-stats {
+    gap: 3rem;
+  }
+  
+  .github-stat-card h3 {
+    font-size: 1.8rem;
+  }
+} 
