@@ -3,7 +3,7 @@
 A highly customized developer portfolio website built on the simplefolio template, showcasing my journey as a Systems & ML Engineer.
 
 ## Live Site
-[Your deployed site URL will go here]
+🚀 **Currently in development** - Will be deployed soon with detailed project showcases and interactive features.
 
 ## About
 I'm Aaryan Anand, a Computer Science student at the University of Florida (Class of '26) with a passion for:
@@ -17,7 +17,7 @@ I'm Aaryan Anand, a Computer Science student at the University of Florida (Class
 - **Build Tool**: Parcel bundler
 - **Styling**: Bootstrap + Custom SCSS
 - **Animations**: ScrollReveal.js
-- **Deployment**: [GitHub Pages/Vercel - to be added]
+- **Deployment**: GitHub Pages (planned)
 
 ## Sections
 
@@ -54,43 +54,44 @@ I'm Aaryan Anand, a Computer Science student at the University of Florida (Class
 
 ### Setup
 ```bash
-# Clone the repository
-git clone [your-repo-url]
-cd simplefolio
+# Clone this repository
+git clone https://github.com/AaryanAn/aaryan-portfolio.git
+cd aaryan-portfolio
 
 # Install dependencies
 npm install
 
 # Start development server
-npm run dev
+npm start
 
 # Build for production
 npm run build
 ```
 
-### Customization
-The portfolio is built with modularity in mind:
-- **Content**: Directly in `src/index.html`
-- **Styles**: SCSS files in `src/sass/`
-- **Assets**: Images and files in `src/assets/`
+### Architecture
+I've built this portfolio with modularity and maintainability in mind:
+- **Content**: All sections are organized in `src/index.html`
+- **Styles**: Modular SCSS architecture in `src/sass/`
+- **Assets**: Optimized images and documents in `src/assets/`
 
 ## Responsive Design
-The portfolio is fully responsive and optimized for:
-- Desktop (1200px+)
-- Tablet (768px - 1199px)
-- Mobile (up to 767px)
+I've ensured the portfolio works seamlessly across all devices:
+- **Desktop** (1200px+): Full feature experience with animations
+- **Tablet** (768px - 1199px): Optimized layouts with touch interactions
+- **Mobile** (up to 767px): Streamlined experience with fast loading
 
-## Future Enhancements (Phase 2)
-- [ ] Custom color palette and typography
-- [ ] Framer Motion or enhanced animations
-- [ ] Research section for lab work
-- [ ] Blog system for technical articles
-- [ ] Custom domain setup
-- [ ] Performance optimizations
+## What's Next
+I'm continuously improving this portfolio. Here's what I'm working on:
+- [ ] **Custom Domain**: Setting up a professional domain
+- [ ] **Research Section**: Showcasing my work at UF Machine Learning Labs
+- [ ] **Blog Integration**: Technical articles on systems and ML topics
+- [ ] **Performance Optimization**: Further speed improvements
+- [ ] **Advanced Animations**: Enhanced micro-interactions and transitions
+- [ ] **Dark/Light Mode Toggle**: User preference controls
 
 ## Acknowledgments
 
-This portfolio was initially inspired by the [Simplefolio](https://github.com/cobiwave/simplefolio) template created by [Jacobo Martinez](https://github.com/cobiwave). While the original template provided a solid foundation, this version has been extensively customized and enhanced with:
+While this portfolio was initially inspired by the [Simplefolio](https://github.com/cobiwave/simplefolio) template created by [Jacobo Martinez](https://github.com/cobiwave), I've completely transformed it with extensive customizations:
 
 - **Custom Dark Theme**: Complete color palette overhaul with teal gradients and modern styling
 - **Enhanced Animations**: Advanced ScrollReveal animations with staggered timing
@@ -99,7 +100,7 @@ This portfolio was initially inspired by the [Simplefolio](https://github.com/co
 - **Performance Optimizations**: Custom SCSS architecture and optimized assets
 - **Responsive Design**: Enhanced mobile and tablet experiences
 
-The final result represents a significant departure from the original template, tailored specifically for showcasing systems engineering and ML expertise.
+The result is a completely personalized portfolio that reflects my unique style and technical focus in systems engineering and machine learning.
 
 ## License
 MIT License - Feel free to fork and adapt this project for your own portfolio needs.
