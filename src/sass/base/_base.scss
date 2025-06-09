@@ -1,5 +1,6 @@
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 
   &.sr .load-hidden {
     visibility: hidden;
@@ -10,19 +11,53 @@ body {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   scroll-behavior: smooth;
+  background: $dark-bg-primary;
+  color: $text-primary;
+  transition: all 0.3s ease;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000;
 }
 
-/* Scrollbar */
+/* Modern Dark Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: $dark-bg-secondary;
+  border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb {
-  background: $light-grey;
+  background: $dark-bg-hover;
+  border-radius: 4px;
+  transition: background 0.3s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: $primary-color;
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(100, 255, 218, 0.2);
+  color: $primary-color;
+}
+
+/* Focus states */
+a:focus,
+button:focus {
+  outline: 2px solid $primary-color;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Section styling */
+section {
+  position: relative;
 }

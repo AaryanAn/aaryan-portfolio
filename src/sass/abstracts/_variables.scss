@@ -1,13 +1,33 @@
-// COLORS
-$primary-color: #02aab0;
-$secondary-color: #00cdac;
+// DARK MODE COLORS - Modern & Eye-catching
+$primary-color: #64ffda; // Bright cyan/teal accent
+$secondary-color: #bb86fc; // Purple accent
+$accent-color: #03dac6; // Teal highlight
 
-$white-color: #fff;
+// BACKGROUNDS
+$dark-bg-primary: #0d1117; // Deep dark background
+$dark-bg-secondary: #161b22; // Slightly lighter dark
+$dark-bg-tertiary: #21262d; // Card/section backgrounds
+$dark-bg-hover: #30363d; // Hover states
 
-$dark-grey: #333333;
-$light-grey: #d2d2d2;
+// TEXT COLORS
+$text-primary: #f0f6fc; // Main text - bright white
+$text-secondary: #7d8590; // Muted text - light grey
+$text-accent: #58a6ff; // Link/accent text - bright blue
 
-$dark-blue-text: #272341; // For Headings
+// LEGACY COLORS (keeping for compatibility)
+$white-color: $dark-bg-tertiary;
+$dark-grey: $dark-bg-secondary;
+$light-grey: $dark-bg-hover;
+$dark-blue-text: $text-primary; // For Headings
+
+// GRADIENTS
+$gradient-primary: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+$gradient-secondary: linear-gradient(135deg, $accent-color 0%, $primary-color 100%);
+
+// SHADOWS & EFFECTS
+$box-shadow-primary: 0 8px 32px rgba(0, 0, 0, 0.4);
+$box-shadow-hover: 0 12px 48px rgba(100, 255, 218, 0.15);
+$border-radius: 12px;
 
 // FONT SIZE
 $default-font-size: 1.6rem;

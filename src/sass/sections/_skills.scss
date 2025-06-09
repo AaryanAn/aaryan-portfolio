@@ -1,0 +1,227 @@
+#skills {
+  background: $dark-bg-primary;
+  background-image: radial-gradient(
+    ellipse at center,
+    rgba(187, 134, 252, 0.08) 0%,
+    transparent 70%
+  );
+  padding: 8rem 0;
+  position: relative;
+
+  .section-title {
+    color: $text-primary;
+    margin-bottom: 6rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    
+    &::after {
+      content: '';
+      display: block;
+      width: 8rem;
+      height: 4px;
+      background: $gradient-primary;
+      margin: 2rem auto;
+      border-radius: 2px;
+    }
+  }
+
+  // Option 1: Clean Badge Layout with Scroll Animation
+  .skills-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .skill-category {
+    margin-bottom: 50px;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideInUp 0.8s ease forwards;
+    
+    &:nth-child(1) { animation-delay: 0.1s; }
+    &:nth-child(2) { animation-delay: 0.3s; }
+    &:nth-child(3) { animation-delay: 0.5s; }
+    &:nth-child(4) { animation-delay: 0.7s; }
+    
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    gap: 15px;
+  }
+
+  .category-icon {
+    font-size: 2.5rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, rgba(100, 255, 218, 0.15), rgba(187, 134, 252, 0.1));
+    border-radius: 15px;
+    border: 1px solid rgba(100, 255, 218, 0.2);
+    transition: all 0.3s ease;
+  }
+
+  .category-title {
+    color: $text-primary;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .badge-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 75px; // Align with title text
+  }
+
+  .tech-badge {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: default;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+    
+    // Staggered animation for each badge
+    @for $i from 1 through 20 {
+      &:nth-child(#{$i}) {
+        animation-delay: #{0.1 + ($i * 0.05)}s;
+      }
+    }
+    
+    &.primary {
+      background: linear-gradient(135deg, 
+        rgba(100, 255, 218, 0.2),
+        rgba(100, 255, 218, 0.15)
+      );
+      color: $primary-color;
+      border: 1px solid rgba(100, 255, 218, 0.3);
+      box-shadow: 0 2px 8px rgba(100, 255, 218, 0.1);
+      
+      &:hover {
+        background: linear-gradient(135deg, 
+          rgba(100, 255, 218, 0.3),
+          rgba(100, 255, 218, 0.2)
+        );
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(100, 255, 218, 0.2);
+        border-color: rgba(100, 255, 218, 0.5);
+      }
+    }
+    
+    &.specialty {
+      background: linear-gradient(135deg, 
+        rgba(255, 107, 107, 0.2),
+        rgba(255, 211, 61, 0.15)
+      );
+      color: #ff6b6b;
+      border: 1px solid rgba(255, 107, 107, 0.3);
+      box-shadow: 0 2px 8px rgba(255, 107, 107, 0.1);
+      
+      &:hover {
+        background: linear-gradient(135deg, 
+          rgba(255, 107, 107, 0.3),
+          rgba(255, 211, 61, 0.2)
+        );
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+        border-color: rgba(255, 107, 107, 0.5);
+      }
+    }
+  }
+
+  // Responsive adjustments
+  @include respond(tab-port) {
+    padding: 6rem 0;
+    
+    .section-title {
+      font-size: 3.5rem;
+    }
+    
+    .badge-grid {
+      margin-left: 0;
+    }
+    
+    .category-header {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    
+    .tech-badge {
+      font-size: 1.2rem;
+      padding: 10px 16px;
+    }
+  }
+
+  @include respond(phone) {
+    padding: 4rem 0;
+    
+    .section-title {
+      font-size: 3rem;
+      margin-bottom: 4rem;
+    }
+    
+    .badge-grid {
+      margin-left: 0;
+      justify-content: center;
+    }
+    
+    .category-header {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .category-icon {
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+    }
+    
+    .category-title {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+    
+    .tech-badge {
+      font-size: 1.1rem;
+      padding: 8px 14px;
+    }
+  }
+}
+
+// Keyframe Animations
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
