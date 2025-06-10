@@ -64,4 +64,27 @@ export const targetElements = [
       origin: "bottom",
     },
   },
+  {
+    element: ".github-container",
+    animation: {
+      delay: 600,
+      origin: "bottom",
+    },
+  },
+  {
+    element: ".github-project-card",
+    animation: {
+      delay: 200,
+      origin: "bottom",
+      interval: 100,
+    },
+  },
+  {
+    element: ".timeline-item",
+    animation: {
+      delay: 200,
+      origin: "bottom",
+      interval: 150,
+    },
+  },
 ];
