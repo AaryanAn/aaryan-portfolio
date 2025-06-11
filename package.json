@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build --public-url /aaryan-portfolio/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cobiwave/simplefolio/issues"
   },
-  "homepage": "https://github.com/cobiwave/simplefolio#readme",
+  "homepage": "https://AaryanAn.github.io/aaryan-portfolio/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "netlify-cli": "^22.1.3",
