@@ -13,8 +13,8 @@ dist/
 *.pdf
 AaryanAnandResume.pdf
 
-# Images and assets (personal photos)
-src/assets/images/
+# Images and assets (personal photos) - Allow profile images
+# src/assets/images/
 src/assets/photos/
 src/assets/profile/
 
