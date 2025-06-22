@@ -1,57 +1,112 @@
-<!DOCTYPE html><html lang=en class=sr><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width, initial-scale=1"><link rel="icon shortcut" type=image/png href=/favicon.a58db67b.png><title>Aaryan Anand | Software Engineer &amp; ML Developer</title><meta name=keywords content="aaryan anand, software engineer, machine learning, python, react, typescript, javascript, c++, systems engineering, deep learning, computer vision"><meta name=description content="Aaryan Anand | Software Engineer &amp; ML Developer - Computer Science student at UF with experience at Amazon AWS and SharkNinja, specializing in ML systems and software engineering"><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css><link rel=stylesheet href=/simplefolio.283a6e26.css><script defer src=https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js></script><script async defer src=https://buttons.github.io/buttons.js></script><script>function testScroll(){console.log("Testing scroll function...");let o=document.getElementById("projects");console.log("Projects section found:",o),o?(console.log("Scrolling to projects..."),o.scrollIntoView({behavior:"smooth",block:"start"})):console.log("Projects section not found!")}function scrollToProjectsAlt(){console.log("Using alternative scroll method..."),window.scrollTo({top:document.getElementById("projects").offsetTop-80,behavior:"smooth"})}</script><body>
-    <div id=top></div>
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobiwave/simplefolio/
+  Readme: https://github.com/cobiwave/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+--><!DOCTYPE html><html lang="en" class="sr"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/favicon.2a2e97fc.png">
 
-    
-    <nav id=navbar class=navbar>
-      <div class=nav-container>
-        <a href=#top class=nav-logo>
-          <span class=logo-text>Aaryan Anand</span>
+    <!-- Todo: put here your site title -->
+    <title>Aaryan Anand | Software Engineer &amp; ML Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="aaryan anand, software engineer, machine learning, python, react, typescript, javascript, c++, systems engineering, deep learning, computer vision">
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Aaryan Anand | Software Engineer &amp; ML Developer - Computer Science student at UF with experience at Amazon AWS and SharkNinja, specializing in ML systems and software engineering">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/simplefolio.4a508c1d.css">
+    <script defer="" src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async="" defer="" src="https://buttons.github.io/buttons.js"></script>
+    <script>// Debug function to test scrolling
+function testScroll() {
+    console.log('Testing scroll function...');
+    const projectsSection = document.getElementById('projects');
+    console.log('Projects section found:', projectsSection);
+    if (projectsSection) {
+        console.log('Scrolling to projects...');
+        projectsSection.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    } else console.log('Projects section not found!');
+}
+// Alternative scroll method
+function scrollToProjectsAlt() {
+    console.log('Using alternative scroll method...');
+    window.scrollTo({
+        top: document.getElementById('projects').offsetTop - 80,
+        behavior: 'smooth'
+    });
+}
+
+</script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Navigation Bar **** -->
+    <nav id="navbar" class="navbar">
+      <div class="nav-container">
+        <a href="#top" class="nav-logo">
+          <span class="logo-text">Aaryan Anand</span>
         </a>
         
-        <div class=nav-menu id=nav-menu>
-          <div class="dropdown nav-item">
-            <a href=#about class=nav-link>About</a>
-            <div class=dropdown-content>
-              <a href=#about>My Story</a>
-              <a href=#timeline>Journey</a>
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-item dropdown">
+            <a href="#about" class="nav-link">About</a>
+            <div class="dropdown-content">
+              <a href="#about">My Story</a>
+              <a href="#timeline">Journey</a>
             </div>
           </div>
           
-          <div class=nav-item>
-            <a href=#skills class=nav-link>Skills</a>
+          <div class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
           </div>
           
-          <div class=nav-item>
-            <a href=#experience class=nav-link>Experience</a>
+          <div class="nav-item">
+            <a href="#experience" class="nav-link">Experience</a>
           </div>
           
-          <div class="dropdown nav-item">
-            <a href=#projects class=nav-link>Projects</a>
-            <div class=dropdown-content>
-              <a href=#projects>Featured Projects</a>
-              <a href=#github>GitHub Portfolio</a>
+          <div class="nav-item dropdown">
+            <a href="#projects" class="nav-link">Projects</a>
+            <div class="dropdown-content">
+              <a href="#projects">Featured Projects</a>
+              <a href="#github">GitHub Portfolio</a>
             </div>
           </div>
           
-          <div class=nav-item>
-            <a href=#contact class=nav-link>Contact</a>
+          <div class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
           </div>
         </div>
         
-        <div class=nav-toggle id=nav-toggle>
-          <span class=bar></span>
-          <span class=bar></span>
-          <span class=bar></span>
+        <div class="nav-toggle" id="nav-toggle">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </div>
     </nav>
-    
+    <!-- /END Navigation Bar -->
 
-    
-    <section id=hero class=jumbotron>
-      <div class=container>
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, I'm <span class=hero-name>Aaryan Anand</span>
+          Hi, I'm <span class="hero-name">Aaryan Anand</span>
           <br>
           Software Engineer &amp; ML Developer
         </h1>
@@ -59,31 +114,31 @@
           Computer Science @ University of Florida | Building intelligent systems at scale
         </p>
         <p class="hero-cta load-hidden">
-          <a rel=noreferrer class="cta-btn cta-btn--hero" href=#projects id=viewWorkBtn>View My Work</a>
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#projects" id="viewWorkBtn">View My Work</a>
         </p>
       </div>
     </section>
-    
+    <!-- /END Hero Section -->
 
-    
-    <section id=about>
-      <div class=container>
-        <h2 class="load-hidden section-title">About me</h2>
-        <div class="about-wrapper row">
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image load-hidden">
-              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height=auto width=300px src=/aaryan-profile.23c08680.jpg>
+              <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px" src="/aaryan-profile.9638d008.jpg">
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
-              <p class=about-wrapper__info-text>
+              <p class="about-wrapper__info-text">
                 I'm a Computer Science student at the University of Florida specializing in <strong>algorithm development</strong> and <strong>machine learning systems</strong>. Through internships at Amazon AWS and SharkNinja, I've built production-scale ML infrastructure, developed optimization algorithms, and engineered intelligent systems for real-world applications.
               </p>
-              <p class=about-wrapper__info-text>
+              <p class="about-wrapper__info-text">
                 My expertise spans <strong>algorithmic problem solving</strong>, <strong>deep learning model development</strong>, and <strong>ML system optimization</strong>. From designing configurable alarming algorithms for AWS ML accelerator platforms to creating reinforcement learning agents for robotic swarms, I focus on building intelligent systems that scale efficiently and solve complex computational challenges.
               </p>
-              <p class=about-wrapper__info-text>
+              <p class="about-wrapper__info-text">
                 <strong>Core Focus Areas:</strong> Algorithm Development, Machine Learning, Deep Learning, ML Infrastructure, Computer Vision, Reinforcement Learning, Distributed Systems
               </p>
 
@@ -92,251 +147,286 @@
         </div>
       </div>
     </section>
-    
+    <!-- /END About Section -->
 
-    
-    <section id=skills>
-      <div class=container>
-        <h2 class=section-title>Technical Skills</h2>
+    <!-- **** Skills Section **** -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
         
-        
-        <div class=skills-container>
-          <div class=skill-category>
-            <div class=category-header>
-              <span class=category-icon>💻</span>
-              <h3 class=category-title>Programming Languages</h3>
+        <!-- Option 1: Clean Badge Layout -->
+        <div class="skills-container">
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">💻</span>
+              <h3 class="category-title">Programming Languages</h3>
             </div>
-            <div class=badge-grid>
-              <span class="primary tech-badge">Python</span>
-              <span class="primary tech-badge">C++</span>
-              <span class="primary tech-badge">C</span>
-              <span class="primary tech-badge">JavaScript</span>
-              <span class="primary tech-badge">TypeScript</span>
-              <span class="primary tech-badge">Java</span>
-              <span class="primary tech-badge">SQL</span>
-              <span class="primary tech-badge">MATLAB</span>
-            </div>
-          </div>
-
-          <div class=skill-category>
-            <div class=category-header>
-              <span class=category-icon>🤖</span>
-              <h3 class=category-title>Machine Learning &amp; AI</h3>
-            </div>
-            <div class=badge-grid>
-              <span class="primary tech-badge">PyTorch</span>
-              <span class="primary tech-badge">TensorFlow</span>
-              <span class="primary tech-badge">Keras</span>
-              <span class="primary tech-badge">SageMaker</span>
-              <span class="specialty tech-badge">Inferentia</span>
-              <span class="specialty tech-badge">Trainium</span>
-              <span class="primary tech-badge">Bedrock</span>
-              <span class="primary tech-badge">Computer Vision</span>
-              <span class="primary tech-badge">Reinforcement Learning</span>
+            <div class="badge-grid">
+              <span class="tech-badge primary">Python</span>
+              <span class="tech-badge primary">C++</span>
+              <span class="tech-badge primary">C</span>
+              <span class="tech-badge primary">JavaScript</span>
+              <span class="tech-badge primary">TypeScript</span>
+              <span class="tech-badge primary">Java</span>
+              <span class="tech-badge primary">SQL</span>
+              <span class="tech-badge primary">MATLAB</span>
             </div>
           </div>
 
-          <div class=skill-category>
-            <div class=category-header>
-              <span class=category-icon>☁️</span>
-              <h3 class=category-title>AWS Cloud Platform</h3>
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">🤖</span>
+              <h3 class="category-title">Machine Learning &amp; AI</h3>
             </div>
-            <div class=badge-grid>
-              <span class="primary tech-badge">EC2</span>
-              <span class="primary tech-badge">S3</span>
-              <span class="primary tech-badge">Lambda</span>
-              <span class="primary tech-badge">CloudWatch</span>
-              <span class="primary tech-badge">ECS</span>
-              <span class="primary tech-badge">Fargate</span>
-              <span class="primary tech-badge">RDS</span>
-              <span class="primary tech-badge">DynamoDB</span>
-              <span class="primary tech-badge">VPC</span>
-              <span class="primary tech-badge">API Gateway</span>
-              <span class="primary tech-badge">CloudFormation</span>
+            <div class="badge-grid">
+              <span class="tech-badge primary">PyTorch</span>
+              <span class="tech-badge primary">TensorFlow</span>
+              <span class="tech-badge primary">Keras</span>
+              <span class="tech-badge primary">SageMaker</span>
+              <span class="tech-badge specialty">Inferentia</span>
+              <span class="tech-badge specialty">Trainium</span>
+              <span class="tech-badge primary">Bedrock</span>
+              <span class="tech-badge primary">Computer Vision</span>
+              <span class="tech-badge primary">Reinforcement Learning</span>
             </div>
           </div>
 
-          <div class=skill-category>
-            <div class=category-header>
-              <span class=category-icon>⚙️</span>
-              <h3 class=category-title>DevOps &amp; Infrastructure</h3>
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">☁️</span>
+              <h3 class="category-title">AWS Cloud Platform</h3>
             </div>
-            <div class=badge-grid>
-              <span class="primary tech-badge">Docker</span>
-              <span class="primary tech-badge">Kubernetes</span>
-              <span class="primary tech-badge">Terraform</span>
-              <span class="primary tech-badge">Jenkins</span>
-              <span class="primary tech-badge">GitLab CI</span>
-              <span class="primary tech-badge">GitHub Actions</span>
-              <span class="primary tech-badge">Grafana</span>
-              <span class="primary tech-badge">Prometheus</span>
-              <span class="primary tech-badge">Linux</span>
+            <div class="badge-grid">
+              <span class="tech-badge primary">EC2</span>
+              <span class="tech-badge primary">S3</span>
+              <span class="tech-badge primary">Lambda</span>
+              <span class="tech-badge primary">CloudWatch</span>
+              <span class="tech-badge primary">ECS</span>
+              <span class="tech-badge primary">Fargate</span>
+              <span class="tech-badge primary">RDS</span>
+              <span class="tech-badge primary">DynamoDB</span>
+              <span class="tech-badge primary">VPC</span>
+              <span class="tech-badge primary">API Gateway</span>
+              <span class="tech-badge primary">CloudFormation</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <span class="category-icon">⚙️</span>
+              <h3 class="category-title">DevOps &amp; Infrastructure</h3>
+            </div>
+            <div class="badge-grid">
+              <span class="tech-badge primary">Docker</span>
+              <span class="tech-badge primary">Kubernetes</span>
+              <span class="tech-badge primary">Terraform</span>
+              <span class="tech-badge primary">Jenkins</span>
+              <span class="tech-badge primary">GitLab CI</span>
+              <span class="tech-badge primary">GitHub Actions</span>
+              <span class="tech-badge primary">Grafana</span>
+              <span class="tech-badge primary">Prometheus</span>
+              <span class="tech-badge primary">Linux</span>
             </div>
           </div>
         </div>
         </div>
       
     </section>
-    
+    <!-- /END Skills Section -->
 
-    
-    <section id=experience>
-      <div class=container>
-        <div class=project-wrapper>
-          <h2 class="dark-blue-text section-title">Professional Experience</h2>
+    <!-- **** Experience Section **** -->
+    <section id="experience">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Professional Experience</h2>
 
-          
-          <div class=row>
+          <!-- Amazon AWS Experience -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Systems Development Engineering Intern</h3>
-                <h4 class=project-wrapper__text-subtitle>Amazon Web Services - Annapurna Labs</h4>
-                <p class=project-wrapper__text-date>May 2025 - Present | Austin, TX</p>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Systems Development Engineering Intern</h3>
+                <h4 class="project-wrapper__text-subtitle">Amazon Web Services - Annapurna Labs</h4>
+                <p class="project-wrapper__text-date">May 2025 - Present | Austin, TX</p>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
                     Developed a configurable alarming system using TypeScript, JavaScript, React, and Python for ML accelerator platforms. Reduced incident response time by 45% and degradable events by 30% by providing real-time notifications across thousands of servers.
                   </p>
-                  <p class=mb-2><strong>Technologies:</strong> TypeScript, JavaScript, React, Python, ElasticSearch, PostgreSQL</p>
+                  <p class="mb-2"><strong>Technologies:</strong> TypeScript, JavaScript, React, Python, ElasticSearch, PostgreSQL</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                  <img alt="Amazon AWS Systems Engineering" class=img-fluid src=/aws-annapurna.0cf73eba.jpg>
+              <div class="project-wrapper__image load-hidden">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                  <img alt="Amazon AWS Systems Engineering" class="img-fluid" src="/aws-annapurna.44bbe567.jpg">
                 </div>
               </div>
             </div>
           </div>
-          
+          <!-- /END Amazon Experience -->
 
-          
-          <div class=row>
+          <!-- SharkNinja Experience -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Software Engineering Intern</h3>
-                <h4 class=project-wrapper__text-subtitle>SharkNinja (Ninja R&amp;D Team)</h4>
-                <p class=project-wrapper__text-date>January 2024 - May 2024 | Boston, MA</p>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Software Engineering Intern</h3>
+                <h4 class="project-wrapper__text-subtitle">SharkNinja (Ninja R&amp;D Team)</h4>
+                <p class="project-wrapper__text-date">January 2024 - May 2024 | Boston, MA</p>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
                     Engineered control systems for the Ninja Luxe Café (4.8-star rated product) using C/C++ PID controllers. Enhanced quality control by 60% through real-time data visualization tools in Python with Matplotlib, and designed ML algorithms for café-quality optimization.
                   </p>
-                  <p class=mb-2><strong>Technologies:</strong> C, C++, Python, Matplotlib, Machine Learning</p>
+                  <p class="mb-2"><strong>Technologies:</strong> C, C++, Python, Matplotlib, Machine Learning</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                  <img alt="SharkNinja Software Engineering" class=img-fluid src=/sharkninja-rnd.b569ccce.jpg>
+              <div class="project-wrapper__image load-hidden">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                  <img alt="SharkNinja Software Engineering" class="img-fluid" src="/sharkninja-rnd.c09d9c39.jpg">
                 </div>
               </div>
             </div>
           </div>
-          
+          <!-- /END SharkNinja Experience -->
         </div>
       </div>
     </section>
-    
+    <!-- /END Experience Section -->
 
-    
-    <section id=projects>
-      <div class=container>
-        <div class=project-wrapper>
-          <h2 class="dark-blue-text section-title">Featured Projects</h2>
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Featured Projects</h2>
 
-          
-          <div class=row>
+          <!-- LLM Inference Stress Testing Platform -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Plant Phenotyping ML Pipeline</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">LLM Inference Stress Testing Platform</h3>
                 <div>
-                  <p class=mb-4>
-                    <strong>Machine Learning &amp; Sensing Lab Research:</strong> Increased phenotype prediction accuracy by 35% using deep learning on 10,000+ hyperspectral images. Built automated feature extraction pipelines reducing manual processing time by 50%.
+                  <p class="mb-4">
+                    <strong>Production-grade benchmarking platform</strong> supporting 6+ LLM providers (OpenAI, Anthropic, Google Gemini, HuggingFace, Ollama, Mock) with real-time performance monitoring. <strong>Reduced LLM API costs by 80%</strong> through dynamic budget tiers and usage-aware throttling.
                   </p>
-                  <p class=mb-2><strong>Technologies:</strong> TensorFlow, Scikit-learn, Pandas, Python, Computer Vision</p>
-                  <p class=mb-2><strong>Research:</strong> Sustainable switchgrass research funded by Department of Energy</p>
+                  <p class="mb-4">
+                    Delivered 99% reliability under load with intelligent error handling and auto-model installation. Built comprehensive cost tracking system with 3-tier budget management ($5-$100/day limits) and hardware-adaptive client selection.
+                  </p>
+                  <p class="mb-2"><strong>Technologies:</strong> Python, Streamlit, Prometheus, Plotly, PyTorch, Transformers, Docker, AWS-ready</p>
+                  <p class="mb-2"><strong>Impact:</strong> 99%+ success rate, sub-second latency, 80% cost reduction, 6 LLM providers</p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href=https://faculty.eng.ufl.edu/machine-learning/>
-                  Lab Website
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/AaryanAn/llm-infer-stress">
+                  Live Demo
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://github.com/AaryanAn/llm-infer-stress">
+                  Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <a rel=noreferrer href=#! target=_blank>
-                  <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                    <img alt="Plant Phenotyping ML Pipeline" class="img-fluid project-img-small" src=/plant-phenotyping.f523701a.jpg>
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://github.com/AaryanAn/llm-infer-stress" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="LLM Inference Stress Testing Platform Dashboard" class="img-fluid" src="/01_dashboard_interface.10e1ab85.png">
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          
+          <!-- /END LLM Inference Platform -->
 
-          
-          <div class=row>
+          <!-- Plant Phenotyping ML Pipeline -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>VR Swarm Robotics Interface</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Plant Phenotyping ML Pipeline</h3>
                 <div>
-                  <p class=mb-4>
-                    <strong>Jain Lab Research:</strong> Leading innovative research on reinforcement learning-driven swarm robotic manipulation in immersive VR/MR environments. Designed and engineered a comprehensive experimental framework using Unity and C# specifically optimized for Meta Quest Pro, featuring real-time asset switching, dynamic swarm interactions, and adaptive behavior modeling.
+                  <p class="mb-4">
+                    <strong>Machine Learning &amp; Sensing Lab Research:</strong> Increased phenotype prediction accuracy by 35% using deep learning on 10,000+ hyperspectral images. Built automated feature extraction pipelines reducing manual processing time by 50%.
                   </p>
-                  <p class=mb-4>
-                    The project focuses on developing intuitive human-computer interfaces that allow users to control and coordinate multiple autonomous agents through natural VR gestures and interactions. Implemented advanced algorithms for swarm intelligence, collision avoidance, and task allocation while maintaining seamless real-time performance in virtual reality.
-                  </p>
-                  <p class=mb-2><strong>Technologies:</strong> Unity, C#, Python, VR/MR, Reinforcement Learning, Meta Quest Pro SDK</p>
-                  <p class=mb-2><strong>Focus:</strong> Human-Computer Interaction, Adaptive Swarm Intelligence, Immersive Technologies</p>
+                  <p class="mb-2"><strong>Technologies:</strong> TensorFlow, Scikit-learn, Pandas, Python, Computer Vision</p>
+                  <p class="mb-2"><strong>Research:</strong> Sustainable switchgrass research funded by Department of Energy</p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href=https://faculty.eng.ufl.edu/jain/>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://faculty.eng.ufl.edu/machine-learning/">
                   Lab Website
                 </a>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--hero" href=#!>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                    <img alt="Plant Phenotyping ML Pipeline" class="img-fluid project-img-small" src="/plant-phenotyping.a4d2cc34.jpg">
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Plant Phenotyping Project -->
+
+          <!-- VR Swarm Robotics Project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">VR Swarm Robotics Interface</h3>
+                <div>
+                  <p class="mb-4">
+                    <strong>Jain Lab Research:</strong> Leading innovative research on reinforcement learning-driven swarm robotic manipulation in immersive VR/MR environments. Designed and engineered a comprehensive experimental framework using Unity and C# specifically optimized for Meta Quest Pro, featuring real-time asset switching, dynamic swarm interactions, and adaptive behavior modeling.
+                  </p>
+                  <p class="mb-4">
+                    The project focuses on developing intuitive human-computer interfaces that allow users to control and coordinate multiple autonomous agents through natural VR gestures and interactions. Implemented advanced algorithms for swarm intelligence, collision avoidance, and task allocation while maintaining seamless real-time performance in virtual reality.
+                  </p>
+                  <p class="mb-2"><strong>Technologies:</strong> Unity, C#, Python, VR/MR, Reinforcement Learning, Meta Quest Pro SDK</p>
+                  <p class="mb-2"><strong>Focus:</strong> Human-Computer Interaction, Adaptive Swarm Intelligence, Immersive Technologies</p>
+                </div>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="https://faculty.eng.ufl.edu/jain/">
+                  Lab Website
+                </a>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   Source Code Coming Soon
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail">
-                  <video class=img-fluid controls autoplay muted loop preload=metadata style=border-radius:8px;width:100%;height:auto>
-                    <source src=/vr-swarm-robotics.ab204551.mov type=video/mp4>
-                    <source src=/vr-swarm-robotics.ab204551.mov type=video/quicktime>
+              <div class="project-wrapper__image load-hidden">
+                <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt">
+                  <video class="img-fluid" controls="" autoplay="" muted="" loop="" preload="metadata" style="border-radius: 8px; width: 100%; height: auto">
+                    <source src="/vr-swarm-robotics.14947535.mov" type="video/mp4">
+                    <source src="/vr-swarm-robotics.14947535.mov" type="video/quicktime">
                     Your browser does not support the video tag.
                   </video>
                 </div>
               </div>
             </div>
           </div>
-          
+          <!-- /END VR Swarm Project -->
 
-          
-          <div class=row>
+          <!-- Spotify ML Project -->
+          <div class="row">
             <div class="col-lg-4 col-sm-12">
-              <div class="load-hidden project-wrapper__text">
-                <h3 class=project-wrapper__text-title>Spotify Playlist Mood Classification</h3>
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Spotify Playlist Mood Classification</h3>
                 <div>
-                  <p class=mb-4>
+                  <p class="mb-4">
                     Developed ML model achieving 85% accuracy in classifying playlist moods across 1,000+ songs. Implemented web interface using Flask and deployed on AWS EC2 with real-time mood analysis and distribution visualization.
                   </p>
-                  <p class=mb-2><strong>Technologies:</strong> Python, Scikit-learn, NLTK, Flask, AWS EC2, Spotify API</p>
-                  <p class=mb-2><strong>ML Techniques:</strong> NLP, Sentiment Analysis, Classification Models</p>
+                  <p class="mb-2"><strong>Technologies:</strong> Python, Scikit-learn, NLTK, Flask, AWS EC2, Spotify API</p>
+                  <p class="mb-2"><strong>ML Techniques:</strong> NLP, Sentiment Analysis, Classification Models</p>
                 </div>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--disabled cta-btn--hero" href=#>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero cta-btn--disabled" href="#">
                   DEMO COMING SOON
                 </a>
-                <a rel=noreferrer target=_blank class="cta-btn cta-btn--disabled cta-btn--hero" href=#>
+                <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero cta-btn--disabled" href="#">
                   SOURCE CODE COMING SOON
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
-              <div class="load-hidden project-wrapper__image">
-                <a rel=noreferrer href=#! target=_blank>
-                  <div data-tilt data-tilt-max=4 data-tilt-glare=true data-tilt-max-glare=0.5 class="js-tilt rounded thumbnail" style="color:#64ffda;text-align:center;background:linear-gradient(135deg,#1a1a2e,#16213e);border:2px dashed #64ffda;justify-content:center;align-items:center;min-height:300px;font-size:1.5rem;font-weight:700;display:flex">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div data-tilt="" data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5" class="thumbnail rounded js-tilt" style="color: #64ffda; text-align: center; background: linear-gradient(135deg, #1a1a2e, #16213e); border: 2px dashed #64ffda; justify-content: center; align-items: center; min-height: 300px; font-size: 1.5rem; font-weight: bold; display: flex">
                     <div>
-                      <i class="fa-clock fas" style=opacity:.7;margin-bottom:1rem;font-size:3rem></i>
+                      <i class="fas fa-clock" style="opacity: .7; margin-bottom: 1rem; font-size: 3rem"></i>
                       <br>
                       IMAGE COMING SOON
                     </div>
@@ -345,106 +435,122 @@
               </div>
             </div>
           </div>
-          
+          <!-- /END Spotify Project -->
         </div>
       </div>
     </section>
-    
+    <!-- /END Projects Section -->
 
-    
-    <section id=github>
-      <div class=container>
-        <h2 class=section-title>GitHub Portfolio</h2>
+    <!-- **** GitHub Section **** -->
+    <section id="github">
+      <div class="container">
+        <h2 class="section-title">GitHub Portfolio</h2>
         <div class="github-container load-hidden">
-          <div class=github-main>
-            <div class=github-intro>
+          <div class="github-main">
+            <div class="github-intro">
               <h3>Open Source Development</h3>
               <p>Explore my repositories showcasing machine learning projects, algorithms, and software engineering solutions. Each project demonstrates different aspects of my technical skills and problem-solving approach.</p>
-              <div class=github-links>
-                <a href=https://github.com/AaryanAn target=_blank class="cta-btn cta-btn--hero">
+              <div class="github-links">
+                <a href="https://github.com/AaryanAn" target="_blank" class="cta-btn cta-btn--hero">
                   <i class="fa fa-github"></i> View All Repositories
                 </a>
               </div>
             </div>
             
-            <div class=github-projects>
-              <div class=github-project-card>
-                <div class=project-header>
-                  <h4>🚀 Portfolio Website</h4>
-                  <span class=project-lang>HTML • SCSS • JS</span>
+            <div class="github-projects">
+              <div class="github-project-card">
+                <div class="project-header">
+                  <h4>🚀 LLM Inference Stress Testing Platform</h4>
+                  <span class="project-lang">Python • ML • DevOps</span>
+                </div>
+                <p>Production-grade benchmarking platform for 6+ LLM providers with real-time monitoring. Achieved 80% cost reduction and 99% reliability through intelligent budget management and automated optimization.</p>
+                <div class="project-stats">
+                  <span class="stat">⚡ Real-time</span>
+                  <span class="stat">💰 Cost Tracking</span>
+                  <span class="stat">🔧 Production</span>
+                </div>
+                <a href="https://github.com/AaryanAn/llm-infer-stress" target="_blank" class="project-link">
+                  <i class="fa fa-github"></i> View Code
+                </a>
+              </div>
+              
+              <div class="github-project-card">
+                <div class="project-header">
+                  <h4>🌐 Portfolio Website</h4>
+                  <span class="project-lang">HTML • SCSS • JS</span>
                 </div>
                 <p>This responsive portfolio website with modern design, smooth animations, and professional navigation system.</p>
-                <div class=project-stats>
-                  <span class=stat>🎨 Responsive</span>
-                  <span class=stat>⚡ Performance</span>
-                  <span class=stat>🎯 UX/UI</span>
+                <div class="project-stats">
+                  <span class="stat">🎨 Responsive</span>
+                  <span class="stat">⚡ Performance</span>
+                  <span class="stat">🎯 UX/UI</span>
                 </div>
-                <a href=https://github.com/AaryanAn/aaryan-portfolio target=_blank class=project-link>
+                <a href="https://github.com/AaryanAn/aaryan-portfolio" target="_blank" class="project-link">
                   <i class="fa fa-github"></i> View Code
                 </a>
               </div>
               
-              <div class=github-project-card>
-                <div class=project-header>
+              <div class="github-project-card">
+                <div class="project-header">
                   <h4>🏠 AffordAbodes</h4>
-                  <span class=project-lang>Python • Django</span>
+                  <span class="project-lang">Python • Django</span>
                 </div>
                 <p>Full-stack web application helping low-income families find affordable housing. Built with Django backend and integrated housing data APIs for accessible search.</p>
-                <div class=project-stats>
-                  <span class=stat>🐍 Python 97.3%</span>
-                  <span class=stat>🌐 Django</span>
-                  <span class=stat>🏠 Housing Data</span>
+                <div class="project-stats">
+                  <span class="stat">🐍 Python 97.3%</span>
+                  <span class="stat">🌐 Django</span>
+                  <span class="stat">🏠 Housing Data</span>
                 </div>
-                <a href=https://github.com/AaryanAn/AffordAbodes target=_blank class=project-link>
+                <a href="https://github.com/AaryanAn/AffordAbodes" target="_blank" class="project-link">
                   <i class="fa fa-github"></i> View Code
                 </a>
               </div>
 
-              <div class=github-project-card>
-                <div class=project-header>
+              <div class="github-project-card">
+                <div class="project-header">
                   <h4>🔧 Programming Language Compiler</h4>
-                  <span class=project-lang>Java • Compiler Design</span>
+                  <span class="project-lang">Java • Compiler Design</span>
                 </div>
                 <p>Complete compiler implementation featuring lexer, parser, interpreter, semantic analyzer, and code generator. Comprehensive solution for programming language concepts.</p>
-                <div class=project-stats>
-                  <span class=stat>☕ Java 100%</span>
-                  <span class=stat>🔧 Compiler Design</span>
-                  <span class=stat>📚 Academic</span>
+                <div class="project-stats">
+                  <span class="stat">☕ Java 100%</span>
+                  <span class="stat">🔧 Compiler Design</span>
+                  <span class="stat">📚 Academic</span>
                 </div>
-                <a href=https://github.com/AaryanAn/PLC_Project target=_blank class=project-link>
+                <a href="https://github.com/AaryanAn/PLC_Project" target="_blank" class="project-link">
                   <i class="fa fa-github"></i> View Code
                 </a>
               </div>
 
-              <div class=github-project-card>
-                <div class=project-header>
+              <div class="github-project-card">
+                <div class="project-header">
                   <h4>🎵 Spotify Mood Classifier</h4>
-                  <span class=project-lang>Python • ML</span>
+                  <span class="project-lang">Python • ML</span>
                 </div>
                 <p><strong>DEMO COMING SOON!</strong> Machine learning model for playlist mood classification using audio features and NLP sentiment analysis. Live demo and project details will be available soon.</p>
-                <div class=project-stats>
-                  <span class=stat>🚧 DEMO COMING SOON</span>
-                  <span class=stat>🧠 Scikit-learn</span>
-                  <span class=stat>🎶 Audio ML</span>
+                <div class="project-stats">
+                  <span class="stat">🚧 DEMO COMING SOON</span>
+                  <span class="stat">🧠 Scikit-learn</span>
+                  <span class="stat">🎶 Audio ML</span>
                 </div>
-                <a href=# class="project-link project-link-disabled">
-                  <i class="fa-clock fas"></i> DEMO COMING SOON
+                <a href="#" class="project-link project-link-disabled">
+                  <i class="fas fa-clock"></i> DEMO COMING SOON
                 </a>
               </div>
               
-              <div class=github-project-card>
-                <div class=project-header>
+              <div class="github-project-card">
+                <div class="project-header">
                   <h4>🥽 VR Swarm Robotics</h4>
-                  <span class=project-lang>C# • Unity</span>
+                  <span class="project-lang">C# • Unity</span>
                 </div>
                 <p>VR interface for multi-robot swarm control using Unity and reinforcement learning algorithms. Research project at UF Jain Lab.</p>
-                <div class=project-stats>
-                  <span class=stat>🤖 Robotics</span>
-                  <span class=stat>🎮 VR/AR</span>
-                  <span class=stat>🧠 RL</span>
+                <div class="project-stats">
+                  <span class="stat">🤖 Robotics</span>
+                  <span class="stat">🎮 VR/AR</span>
+                  <span class="stat">🧠 RL</span>
                 </div>
-                <a href=# class="project-link project-link-disabled">
-                  <i class="fa-lock fas"></i> Open Source Soon
+                <a href="#" class="project-link project-link-disabled">
+                  <i class="fas fa-lock"></i> Open Source Soon
                 </a>
               </div>
             </div>
@@ -452,125 +558,135 @@
         </div>
       </div>
     </section>
-    
+    <!-- /END GitHub Section -->
 
-    
-    <section id=timeline>
-      <div class=container>
-        <h2 class=section-title>My Journey</h2>
-        <div class=timeline-container>
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+    <!-- **** Timeline Section **** -->
+    <section id="timeline">
+      <div class="container">
+        <h2 class="section-title">My Journey</h2>
+        <div class="timeline-container">
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>Amazon AWS - Systems Development Engineer Intern</h3>
-              <span class=timeline-date>May 2025 - Present</span>
+              <span class="timeline-date">May 2025 - Present</span>
               <p>Built configurable alarming systems for ML accelerator platforms (Trainium/Inferentia). Improved monitoring accuracy by 40% and developed scalable AWS infrastructure solutions.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>Research Assistant - UF Machine Learning &amp; Sensing Lab</h3>
-              <span class=timeline-date>January 2025 - Present</span>
+              <span class="timeline-date">January 2025 - Present</span>
               <p>Leading plant phenotyping research using deep learning on 10,000+ hyperspectral images. Increased prediction accuracy by 35% and developed automated feature extraction pipelines.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>LLM Inference Stress Testing Platform</h3>
+              <span class="timeline-date">December 2024 - Present</span>
+              <p>Developed production-grade benchmarking platform supporting 6+ LLM providers with real-time monitoring. Achieved 80% cost reduction through intelligent budget management and delivered 99% reliability under load with automated optimization.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>Research Assistant - UF Jain Lab (VR/Robotics)</h3>
-              <span class=timeline-date>December 2024 - Present</span>
+              <span class="timeline-date">December 2024 - Present</span>
               <p>Developing VR interfaces for swarm robotics using Unity/C# and reinforcement learning algorithms for Meta Quest Pro platform.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>SharkNinja - Software Engineering Intern</h3>
-              <span class=timeline-date>January 2024 - May 2024</span>
+              <span class="timeline-date">January 2024 - May 2024</span>
               <p>Engineered control systems for the Ninja Luxe Café using C/C++ PID controllers. Enhanced quality control by 60% through real-time data visualization tools and designed ML algorithms for café-quality optimization.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>oAppsNet - Software Engineering Intern</h3>
-              <span class=timeline-date>May 2023 - August 2023</span>
+              <span class="timeline-date">May 2023 - August 2023</span>
               <p>Drove 50% increase in client acquisition by developing scalable AI-driven software solutions using Python, Azure, and Oracle AI platforms. Enhanced system interoperability and accelerated document processing efficiency by 30%.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>Transfer to University of Florida - Computer Science</h3>
-              <span class=timeline-date>Summer 2024 - May 2026</span>
+              <span class="timeline-date">Summer 2024 - May 2026</span>
               <p>Transferred from UT Austin to pursue Computer Science with focus on Machine Learning and Algorithms. Dean's List multiple semesters.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>University of Texas at Austin - Mechanical Engineering</h3>
-              <span class=timeline-date>Fall 2022 - Spring 2024</span>
+              <span class="timeline-date">Fall 2022 - Spring 2024</span>
               <p>Started engineering journey in Mechanical Engineering, developing foundation in mathematics, physics, and engineering principles.</p>
             </div>
           </div>
           
-          <div class="load-hidden timeline-item">
-            <div class=timeline-marker></div>
-            <div class=timeline-content>
+          <div class="timeline-item load-hidden">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
               <h3>High School Robotics &amp; STEM Leadership</h3>
-              <span class=timeline-date>August 2017 - May 2021</span>
+              <span class="timeline-date">August 2017 - May 2021</span>
               <p>Active in robotics competitions and STEM programs. Developed early passion for engineering, programming, and problem-solving that shaped career direction.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
+    <!-- /END Timeline Section -->
 
-    
-    <section id=contact>
-      <div class=container>
-        <h2 class=section-title>Let's Build Something Amazing</h2>
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Build Something Amazing</h2>
         <div class="contact-wrapper load-hidden">
-          <p class=contact-wrapper__text>Interested in discussing software engineering, machine learning, or potential opportunities? I'd love to connect!</p>
-          <a rel=noreferrer target=_blank class="cta-btn cta-btn--resume" href=mailto:aaryan.r.anand@gmail.com>Get In Touch</a>
+          <p class="contact-wrapper__text">Interested in discussing software engineering, machine learning, or potential opportunities? I'd love to connect!</p>
+          <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume" href="mailto:aaryan.r.anand@gmail.com">Get In Touch</a>
         </div>
       </div>
     </section>
-    
+    <!-- /END Contact Section -->
 
-    
+    <!-- **** Footer Section **** -->
     <footer class="footer navbar-static-bottom">
-      <div class=container>
-        <a rel=noreferrer href=#top class=back-to-top>
-          <i class="fa fa-2x fa-angle-up" aria-hidden=true></i>
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class=social-links>
-          <a rel=noreferrer href=https://linkedin.com/in/aaryanranand target=_blank>
-            <i class="fa fa-inverse fa-linkedin"></i>
+        <div class="social-links">
+          <a rel="noreferrer" href="https://linkedin.com/in/aaryanranand" target="_blank">
+            <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel=noreferrer href=https://github.com/AaryanAn target=_blank>
+          <a rel="noreferrer" href="https://github.com/AaryanAn" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
 
         <hr>
 
-        <p class=footer__text>
+        <p class="footer__text">
           © 2024 - Aaryan Anand | Software Engineer &amp; ML Developer
         </p>
       </div>
     </footer>
-    
+    <!-- /END Footer Section -->
 
-    <script defer type=module src=/simplefolio.efa493e3.js></script>
+    <script defer="" type="module" src="/simplefolio.31b563d9.js"></script>
   
 
+</body></html>
