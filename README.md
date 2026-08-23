@@ -3,10 +3,11 @@
 A highly customized developer portfolio website built on the simplefolio template, showcasing my journey as a Systems & ML Engineer.
 
 ## Live Site
-🚀 **Currently in development** - Will be deployed soon with detailed project showcases and interactive features.
+🚀 **Live at [aaryan.us](https://aaryan.us)**
 
 ## About
-I'm Aaryan Anand, a Computer Science student at the University of Florida (Class of '26) with a passion for:
+I'm Aaryan Anand, a Machine Learning Engineer at Amazon's Annapurna Labs in Cupertino, CA, working on LLM inference. I'm a University of Florida Computer Science graduate (Class of '26) with a passion for:
+- LLM inference and ML systems at scale
 - Systems infrastructure and cloud computing
 - Machine learning and AI applications
 - Swarm robotics and VR interfaces
@@ -17,7 +18,7 @@ I'm Aaryan Anand, a Computer Science student at the University of Florida (Class
 - **Build Tool**: Parcel bundler
 - **Styling**: Bootstrap + Custom SCSS
 - **Animations**: ScrollReveal.js
-- **Deployment**: GitHub Pages (planned)
+- **Deployment**: Netlify ([aaryan.us](https://aaryan.us))
 
 ## Sections
 
@@ -27,11 +28,13 @@ I'm Aaryan Anand, a Computer Science student at the University of Florida (Class
 - Brief introduction highlighting my focus areas
 
 ### About Section
-- Background: UF CS student
-- Interests: Systems, ML, swarm robotics, VR
+- Background: UF CS graduate, now working full-time in industry
+- Interests: LLM inference, systems, ML, swarm robotics, VR
 - Personal hobbies: Music (hip-hop, jazz), traveling
 
 ### Experience Section
+- **Amazon - Annapurna Labs**: Machine Learning Engineer (June 2026 - Present)
+  - LLM inference optimization, Cupertino, CA
 - **Amazon AWS - Annapurna Labs**: Systems Development Engineer Intern
   - Alarming solutions for Trainium/Inferentia ML platforms
 - **SharkNinja**: Controls Engineering Intern
@@ -82,8 +85,8 @@ I've ensured the portfolio works seamlessly across all devices:
 
 ## What's Next
 I'm continuously improving this portfolio. Here's what I'm working on:
-- [ ] **Custom Domain**: Setting up a professional domain
-- [ ] **Research Section**: Showcasing my work at UF Machine Learning Labs
+- [x] **Custom Domain**: Live at aaryan.us
+- [ ] **LLM Inference Section**: Showcasing my current work at Annapurna Labs
 - [ ] **Blog Integration**: Technical articles on systems and ML topics
 - [ ] **Performance Optimization**: Further speed improvements
 - [ ] **Advanced Animations**: Enhanced micro-interactions and transitions
