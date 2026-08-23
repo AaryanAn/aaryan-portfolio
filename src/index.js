@@ -1,9 +1,11 @@
 import initScrollReveal from "./scripts/scrollReveal";
 import initTiltEffect from "./scripts/tiltAnimation";
+import initHeroVariant from "./scripts/heroVariant";
 import { targetElements, defaultProps } from "./data/scrollRevealConfig";
 
 initScrollReveal(targetElements, defaultProps);
 initTiltEffect();
+initHeroVariant();
 
 // Subtle parallax scrolling functionality
 function initParallax() {

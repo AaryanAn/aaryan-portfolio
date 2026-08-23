@@ -24,6 +24,48 @@
   position: relative;
   overflow: hidden;
 
+  #hero-scene {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.45;
+
+    canvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+
+    // Soft scrim behind the text column so any hero scene variant stays legible
+    &::before {
+      content: '';
+      position: absolute;
+      top: -10%;
+      left: -8%;
+      width: 75%;
+      height: 120%;
+      z-index: -1;
+      background: radial-gradient(
+        ellipse at left center,
+        rgba(5, 8, 15, 0.75) 0%,
+        rgba(5, 8, 15, 0.45) 45%,
+        transparent 75%
+      );
+      pointer-events: none;
+
+      @include respond(tab-port) {
+        left: -5%;
+        width: 110%;
+      }
+    }
+  }
+
   // Animated background particles
   &::before {
     content: '';
